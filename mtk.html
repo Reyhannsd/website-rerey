@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Deret Aritmatika dan Geometri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator Deret Aritmatika dan Geometri</h1>
+        
+        <div class="calculator">
+            <div class="input-section">
+                <h2>Deret Aritmatika</h2>
+                <input type="number" id="aAritmatika" placeholder="Suku Pertama (a)" required>
+                <input type="number" id="dAritmatika" placeholder="Beda (b)" required>
+                <input type="number" id="nAritmatika" placeholder="Jumlah Suku (n)" required>
+                <button onclick="hitungAritmatika()">Hitung</button>
+                <p id="hasilAritmatika" class="result"></p>
+            </div>
+
+            <div class="input-section">
+                <h2>Deret Geometri</h2>
+                <input type="number" id="aGeometri" placeholder="Suku Pertama (a)" required>
+                <input type="number" id="rGeometri" placeholder="Rasio (r)" required>
+                <input type="number" id="nGeometri" placeholder="Jumlah Suku (n)" required>
+                <button onclick="hitungGeometri()">Hitung</button>
+                <p id="hasilGeometri" class="result"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <div class="button">
+        <p style="font-family: Georgia; text-align: center; font-size: 20px;"><a href="Reyy.html">Back to home ↩</a></p>
+    </div>
+</body>
+</html>
